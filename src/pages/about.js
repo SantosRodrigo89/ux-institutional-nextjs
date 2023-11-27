@@ -1,9 +1,9 @@
 import React from 'react'
 
-function home() {
+function about() {
   return (
     <div>SOBRE NOS</div>
   )
 }
 
-export default home
+export default about
