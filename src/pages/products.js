@@ -1,9 +1,15 @@
-import React from 'react'
+import Head from "next/head";
+import React from "react";
 
 function products() {
   return (
-    <div>Altos produtos</div>
-  )
+    <>
+      <Head>
+        <title>Produtos</title>
+      </Head>
+      <div>Altos produtos</div>
+    </>
+  );
 }
 
-export default products
+export default products;
