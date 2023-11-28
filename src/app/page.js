@@ -1,11 +1,14 @@
 import Link from "next/link";
+import FirstHeader from "@/components/organisms/firstHeader/FirstHeader";
 
 export default function Home() {
   return (
     <>
+    
+      <FirstHeader />
       <ul>
         <li>
-          <Link href="/home">index</Link>
+          <Link href="/">index</Link>
         </li>
         <li>
           <Link href="/about">about</Link>

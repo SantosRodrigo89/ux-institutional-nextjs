@@ -1,9 +1,16 @@
-import React from 'react'
+import Head from "next/head";
+import React from "react";
 
-function home() {
+function about() {
   return (
-    <div>SOBRE NOS</div>
-  )
+    <>
+      {" "}
+      <Head>
+        <title>Sobre nós</title>
+      </Head>
+      <div>SOBRE NOS</div>
+    </>
+  );
 }
 
-export default home
+export default about;
