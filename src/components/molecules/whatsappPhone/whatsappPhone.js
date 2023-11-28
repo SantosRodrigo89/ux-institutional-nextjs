@@ -1,11 +1,12 @@
 import WhatsappLogo from "@/components/atoms/whatsappLogo/whatsappLogo";
 import React from "react";
+import { MainContainer } from "./style";
 
 function WhatsappPhone() {
   return (
-    <div>
+    <MainContainer>
       <WhatsappLogo /> <p>(31)99968-8673</p>
-    </div>
+    </MainContainer>
   );
 }
 

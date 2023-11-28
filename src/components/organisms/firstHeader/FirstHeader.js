@@ -1,22 +1,34 @@
-'use client'
-
+"use client";
 import React from "react";
-import { MainContainer } from "./style";
 import WhatsappPhone from "@/components/molecules/whatsappPhone/whatsappPhone";
 import EmailAdress from "@/components/molecules/emailAdress/emailAdress";
 import FaceBookLogo from "@/components/atoms/faceBookLogo/faceBookLogo";
 import InstagramLogo from "@/components/atoms/instagramLogo/instagramLogo";
+import {
+  MainContainer,
+  WAContainer,
+  EmailContainer,
+  ThirdIcons,
+} from "./style";
+
 
 function FirstHeader() {
   return (
     <MainContainer>
-      <WhatsappPhone />
-      <EmailAdress />
-      <div>
+      <WAContainer>
+        <WhatsappPhone />
+      </WAContainer>
+
+      <EmailContainer>
+        <EmailAdress />
+      </EmailContainer>
+
+      <ThirdIcons>
         <FaceBookLogo />
         <InstagramLogo />
-      </div>
+      </ThirdIcons>
+
     </MainContainer>
   );
 }
-export default FirstHeader
+export default FirstHeader;
