@@ -1,15 +1,11 @@
 import Link from "next/link";
-import Head from "next/head";
+import FirstHeader from "@/components/organisms/firstHeader/FirstHeader";
 
 export default function Home() {
   return (
     <>
-     <Head>
-        <title>
-          {" "}
-          VMS Areias 
-        </title>
-      </Head>
+    
+      <FirstHeader />
       <ul>
         <li>
           <Link href="/">index</Link>
