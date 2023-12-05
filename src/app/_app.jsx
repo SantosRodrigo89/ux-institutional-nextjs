@@ -7,7 +7,6 @@ export default class MyApp extends App {
 
     return (
       <>
-        {" "}
         <GlobalStyle /> <Component {...pageProps} />{" "}
       </>
     );

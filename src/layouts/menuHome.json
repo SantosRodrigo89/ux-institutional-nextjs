@@ -1,0 +1,18 @@
+[
+  {
+    "label": "index",
+    "href": "/"
+  },
+  {
+    "label": "About",
+    "href": "/about"
+  },
+  {
+    "label": "Contact",
+    "href": "/contact"
+  },
+  {
+    "label": "Products",
+    "href": "/products"
+  }
+]
