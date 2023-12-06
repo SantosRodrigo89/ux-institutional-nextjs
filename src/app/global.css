@@ -1,6 +1,3 @@
-/* global.css */
-
-/* Reset some default styles for consistency */
 html,
 body,
 div,
@@ -37,21 +34,18 @@ textarea {
   vertical-align: baseline;
 }
 
-/* Apply a box-sizing border-box to all elements */
 * {
   box-sizing: border-box;
 }
 
-/* Set some base styles for the body */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   line-height: 1.6;
   font-size: 16px;
   color: #333;
   background-color: #fff;
 }
 
-/* Apply styles to links */
 a {
   color: #0070f3;
   text-decoration: none;
@@ -61,7 +55,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Apply styles to headings */
 h1,
 h2,
 h3,
@@ -71,5 +64,3 @@ h6 {
   color: #333;
   margin-bottom: 0.5em;
 }
-
-/* Add more global styles as needed */
