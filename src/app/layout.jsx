@@ -1,4 +1,5 @@
 import Layout from "@/layouts";
+import './ui/global.css'
 
 export const metadata = {
   title: "A&B :: Areias e Britas",
