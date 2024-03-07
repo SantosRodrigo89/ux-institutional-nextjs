@@ -10,6 +10,7 @@
     "turbo": "next dev --turbo"
   },
   "dependencies": {
+    "@auth0/nextjs-auth0": "^3.5.0",
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
