@@ -1,12 +1,12 @@
-import Link from "next/link";
-import menuHome from "./menuHome.json";
-import FirstHeader from "@/components/organisms/firstHeader/FirstHeader";
-
+import Link from 'next/link';
+import menuHome from './menuHome.json';
+import FirstHeader from '@/components/organisms/firstHeader/FirstHeader';
+import { withPageAuthRequired } from '@auth0/nextjs-auth0';
 
 const Layout = ({ children }) => (
   <>
     <FirstHeader />
-    <a href="/api/auth/login">Login</a>
+    <a href='/api/auth/login'>Login</a>
     <ul>
       {menuHome.map((item) => (
         <li key={item.href}>
@@ -18,4 +18,4 @@ const Layout = ({ children }) => (
   </>
 );
 
-export default Layout;
+export default withPageAuthRequired(Layout);
