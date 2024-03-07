@@ -1,6 +1,6 @@
 [
   {
-    "label": "index",
+    "label": "Home",
     "href": "/"
   },
   {
@@ -14,5 +14,9 @@
   {
     "label": "Products",
     "href": "/products"
+  },
+  {
+    "label": "Profile",
+    "href" : "/profile"
   }
 ]

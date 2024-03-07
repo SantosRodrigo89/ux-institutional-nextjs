@@ -1,7 +1,7 @@
 "use client";
 
 const AboutTemplate = () => (
-    <span> AboutTemplateTemplate TEMPLATE</span>
+    <span> About TEMPLATE</span>
 )
 
 export default AboutTemplate;
