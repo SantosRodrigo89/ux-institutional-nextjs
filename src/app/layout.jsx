@@ -3,7 +3,7 @@ import '../theme/global.css';
 import { UserProvider } from '@auth0/nextjs-auth0/client';
 
 export const metadata = {
-  title: 'A&B :: Areias e Britas',
+  title: 'Rodrigo Vieira',
   icons: {
     icon: '/img/url.png',
   },
