@@ -5,7 +5,7 @@ import { MainContainer } from "./style";
 function WhatsappPhone() {
   return (
     <MainContainer>
-      <WhatsappLogo /> <p>(31)99968-8673</p>
+      <WhatsappLogo /> <p>(31)99999-9999</p>
     </MainContainer>
   );
 }

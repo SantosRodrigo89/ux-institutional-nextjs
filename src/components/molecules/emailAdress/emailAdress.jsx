@@ -4,7 +4,7 @@ import React from 'react'
 function EmailAdress() {
   return (
     <div>
-        <EmailLogo/> vmsareiaebrita@gmail.com
+        <EmailLogo/> contato@email.com
     </div>
   )
 }
