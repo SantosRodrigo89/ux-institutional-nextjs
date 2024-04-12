@@ -14,7 +14,7 @@ O Web-UX-Institutional-Test é um modelo de site institucional focado em proporc
 
 ## Deploy
 
-O projeto foi implantado na plataforma Vercel e pode ser acessado através do seguinte link: [Web-UX-Institutional-Test Deploy](https://vercel.com/santosrodrigo89s-projects/ux-institutional-xsnx)
+O projeto foi implantado na plataforma Vercel e pode ser acessado através do seguinte link: [Web-UX-Institutional-Test Deploy](ux-institutional.vercel.app)
 
 ## Autenticação com Auth0
 
